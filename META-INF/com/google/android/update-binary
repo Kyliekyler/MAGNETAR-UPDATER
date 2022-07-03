@@ -1,4 +1,4 @@
-#!/sbin/sh 
+#!/sbin/sh
 require_new_magisk() {
   echo "- PLEASE INSTALL MAGISK V23+!"
   exit 1
@@ -7,7 +7,7 @@ require_new_magisk() {
 umask 022
 OUTFD=$2
 ZIPFILE=$3
-mount /data 2>/dev/null
+mount /data 2> /dev/null
 [ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk
 . /data/adb/magisk/util_functions.sh
 [ "$MAGISK_VER_CODE" -lt "23000" ] && require_new_magisk
