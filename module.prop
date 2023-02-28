@@ -1,6 +1,6 @@
 id=MAGNETAR-UPDATER
 name=MAGNETAR UPDATER
-version=4
-versionCode=4
+version=5
+versionCode=5
 author=Kyliekyler
 description=Self-Destructing Updater Module
